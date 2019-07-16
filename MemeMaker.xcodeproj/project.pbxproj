@@ -12,6 +12,7 @@
 		FAC38DCB22D925970066CE1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC38DC922D925970066CE1F /* Main.storyboard */; };
 		FAC38DCD22D925980066CE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC38DCC22D925980066CE1F /* Assets.xcassets */; };
 		FAC38DD022D925980066CE1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC38DCE22D925980066CE1F /* LaunchScreen.storyboard */; };
+		FAF70BF322DD1FB8000A6679 /* CaptionChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF70BF222DD1FB8000A6679 /* CaptionChoices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAC38DCC22D925980066CE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC38DCF22D925980066CE1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC38DD122D925980066CE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF70BF222DD1FB8000A6679 /* CaptionChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionChoices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FAC38DCC22D925980066CE1F /* Assets.xcassets */,
 				FAC38DCE22D925980066CE1F /* LaunchScreen.storyboard */,
 				FAC38DD122D925980066CE1F /* Info.plist */,
+				FAF70BF222DD1FB8000A6679 /* CaptionChoices.swift */,
 			);
 			path = MemeMaker;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF70BF322DD1FB8000A6679 /* CaptionChoices.swift in Sources */,
 				FAC38DC822D925970066CE1F /* ViewController.swift in Sources */,
 				FAC38DC622D925970066CE1F /* AppDelegate.swift in Sources */,
 			);
